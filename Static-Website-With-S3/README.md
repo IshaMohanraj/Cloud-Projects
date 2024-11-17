@@ -16,7 +16,7 @@
 
 • Going insto the bucket, then clicking over the file uploaded, index.html file in my case, we will be provided with "Object URL". This is the website link that we will be share to the outside would for our website.
 
-![HTML file in Bucket](Static-Website-With-S3/Images/URL-Page.png "S3-Object-url-page")
+![HTML file in Bucket](/Static-Website-With-S3/Images/URL-Page.png "S3-Object-url-page")
 
 • Though Public Access was enabled, the bucket policy has to be updated to allow to fetch object in this bucket by anyone.
 
@@ -36,7 +36,7 @@
     ]
 } `
 
-![Public Access and Updated Bucket Policy](Static-Website-With-S3/Images/permissions-bucket-policy.png "updated-bucket-policy-image")
+![Public Access and Updated Bucket Policy](/Static-Website-With-S3/Images/permissions-bucket-policy.png "updated-bucket-policy-image")
 
 • Go to Bucket --> Permissions --> Bucket Policy and updated the above.
 
